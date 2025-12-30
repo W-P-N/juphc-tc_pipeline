@@ -34,7 +34,7 @@ spec:
         fi
 ---
 apiVersion: tekton.dev/v1beta1
-kind: task
+kind: Task
 metadata:
   name: npm
 spec:
@@ -58,7 +58,7 @@ spec:
         npm install
 --- 
 apiVersion: tekton.dev/v1beta1
-kind: task
+kind: Task
 metadata:
   name: jasmine
 spec:
@@ -71,4 +71,4 @@ spec:
         set -e
         echo "***** Running jasminetests *****"
         npx jasmine
-
+---
