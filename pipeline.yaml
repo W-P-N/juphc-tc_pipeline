@@ -9,7 +9,7 @@ spec:
   params:
     - name: repo-url
     - name: app-name
-      default: tax-calculator
+      default: tax-calculator-new
     - name: branch
       default: main
   tasks:
